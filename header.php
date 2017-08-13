@@ -45,6 +45,20 @@
 </script>
 	<body id="top" <?php body_class(); ?>>
 
+			<div class="adContainer">
+			<a href="http://www.unrsearch.com"><img src="http://nevadasagebrush.com/wp-content/uploads/2017/06/Inkblot-—-Open-Engineering.png" alt="Open Student Positions"></a>
+				<!-- script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script -->
+				<!-- top-of-page-responsive -->
+				<!-- ins class="adsbygoogle"
+				style="min-width:400px;width:100%;height:90px"
+				data-ad-client="ca-pub-3881133552149931"
+				data-ad-slot="6070235608"
+				data-ad-format="horizontal"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script -->
+			</div>
+
 			<nav id="mobile-nav-wrapper" role="navigation"></nav>
 			<div id="off-canvas-body-inner">
 
@@ -146,19 +160,5 @@
 				</div>
 				<!-- End Main Navigation Bar -->
 				<!-- Start Adsense test -->
-				<div class="adContainer">
-				<a href="http://www.unrsearch.com"><img src="http://nevadasagebrush.com/wp-content/uploads/2017/06/Inkblot-—-Open-Engineering.png" alt="Open Student Positions"></a>
 
-
-					<!-- script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script -->
-<!-- top-of-page-responsive -->
-<!-- ins class="adsbygoogle"
-     style="min-width:400px;width:100%;height:90px"
-     data-ad-client="ca-pub-3881133552149931"
-     data-ad-slot="6070235608"
-     data-ad-format="horizontal"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script -->
-				</div>
 				<!-- End Adsense -->
