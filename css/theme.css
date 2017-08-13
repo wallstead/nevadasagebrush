@@ -6122,10 +6122,18 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .top-bar {
-    background-color: black !important;
-    color: white !important;
+    background-color: white !important;
+}
+
+.top-bar > a {
+    color: black !important;
 }
 
 .main-bar {
     background-color: white !important;
+}
+
+#logo {
+    max-width: 650px;
+    margin: 0 auto;
 }
