@@ -113,17 +113,7 @@
 							<div class="col-sm-12">
 								<div id="logo" class="">
 									<a href="<?php echo esc_url( home_url() ); ?>/">
-									<?php if( vw_get_option( 'logo_url' ) != '' ) : ?>
-										<?php if( vw_get_option( 'logo_2x_url' ) != '' ) : ?>
-											<img src="<?php echo esc_url( vw_get_option( 'logo_2x_url' ) ); ?>" width="<?php echo esc_attr( vw_get_option( 'logo_2x_width' ) ); ?>" height="<?php echo esc_attr( vw_get_option( 'logo_2x_height' ) ); ?>" alt="<?php bloginfo('name'); ?>" class="logo-retina" />
-										<?php endif; ?>
-										<img src="<?php echo esc_url( vw_get_option( 'logo_url' ) ); ?>" alt="<?php bloginfo('name'); ?>" class="logo-original" />
-									<?php else : ?>
-										<h1 id="site-title" class="title title-large"><?php bloginfo( 'name' ); ?></h1>
-									<?php endif; ?>
-									<?php if ( get_bloginfo( 'description' ) ): ?>
-										<h2 id="site-tagline" class="subtitle"><?php bloginfo( 'description' ) ?></h2>
-									<?php endif; ?>
+										<img src="/img/logo.png" alt="The Nevada Sagebrush Logo">
 									</a>
 								</div>
 
