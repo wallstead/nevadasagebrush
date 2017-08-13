@@ -113,7 +113,7 @@
 							<div class="col-sm-12">
 								<div id="logo" class="">
 									<a href="<?php echo esc_url( home_url() ); ?>/">
-										<img src="/img/logo.png" alt="The Nevada Sagebrush Logo">
+										<img src="/wp-content/uploads/2017/08/2Artboard-1@2x.png" alt="The Nevada Sagebrush Logo">
 									</a>
 								</div>
 
