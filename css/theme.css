@@ -6135,12 +6135,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .main-bar {
     background-color: white !important;
+    padding: 0 !important;
 }
 
 #logo {
-    max-width: 650px;
+    max-width: 740px;
     margin: 0 auto;
 }
+
 .main-nav-bar {
     background-color: black !important;
 }
