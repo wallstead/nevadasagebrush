@@ -6125,6 +6125,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     margin: 0 auto;
 }
 
+.top-nav a:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
 .top-bar {
     background-color: white !important;
 }
