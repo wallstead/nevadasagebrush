@@ -6113,7 +6113,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 /* Will temp styles */
 
 #off-canvas-body-inner {
-    box-shadow: none;
+    box-shadow: none !important;
 }
 
 .adContainer {
@@ -6126,7 +6126,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .top-nav a:hover {
-    background-color: rgba(0, 0, 0, 0.03);
+    background-color: rgba(0, 0, 0, 0.03) !important;
 }
 
 .top-bar {
