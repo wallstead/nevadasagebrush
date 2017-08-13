@@ -6141,3 +6141,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     max-width: 650px;
     margin: 0 auto;
 }
+.main-nav-bar {
+    background-color: black !important;
+}
