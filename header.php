@@ -53,14 +53,14 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-sm-12">
-								<!-- <div class="top-bar-right">
+								<div class="top-bar-right">
 
 									<?php if( function_exists( 'qtrans_generateLanguageSelectCode' ) ) qtrans_generateLanguageSelectCode( 'image' ); ?>
 
 									<?php vw_render_site_social_icons(); ?>
 
 									<a class="instant-search-icon"><i class="icon-entypo-search"></i></a>
-								</div> -->
+								</div>
 
 								<div id="open-mobile-nav"><i class="icon-entypo-menu"></i></div>
 
