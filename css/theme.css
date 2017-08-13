@@ -6106,3 +6106,22 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   -webkit-animation-name: rollOut;
   animation-name: rollOut;
 }
+
+
+
+
+/* Will temp styles */
+
+.adContainer {
+    background-color: white;
+}
+
+.ad {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.top-bar {
+    background-color: black !important;
+    color: white !important;
+}
