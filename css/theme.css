@@ -6125,9 +6125,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     margin: 0 auto;
 }
 
-.top-nav a:hover {
-    background-color: rgba(0, 0, 0, 0.03) !important;
-}
+
 
 .top-bar {
     background-color: white !important;
@@ -6137,8 +6135,16 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     color: black !important;
 }
 
+.top-bar a:hover {
+    background-color: rgba(0, 0, 0, 0.03) !important;
+}
+
 .top-bar-right a {
     color: black !important;
+}
+
+.top-bar-right a:hover {
+    background-color: rgba(0, 0, 0, 0.03) !important;
 }
 
 .main-bar {
