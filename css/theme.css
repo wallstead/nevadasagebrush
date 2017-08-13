@@ -6112,6 +6112,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 /* Will temp styles */
 
+#off-canvas-body-inner {
+    box-shadow: none;
+}
+
 .adContainer {
     background-color: white;
 }
