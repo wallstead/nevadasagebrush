@@ -5,10 +5,20 @@
 	Author URI: http://envirra.com
 	Description: Magazine WordPress Theme
 	Version: 1.9.2
-	
+
 	License: GPL
 	License URI: http://www.gnu.org/licenses/gpl.html‎
 	Tags: black, white, one-column, two-columns, three-columns, right-sidebar, flexible-width, custom-colors, custom-menu, featured-images, post-formats, theme-options, translation-ready, photoblogging
 	Text Domain: envirra
 	Domain Path: /languages
 */
+
+
+.adContainer {
+    background-color: white;
+}
+
+.ad {
+    max-width: 1400px;
+    margin: 0 auto;
+}
