@@ -6165,7 +6165,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 
-.main-nav .menu-link, .main-nav .current-menu-ancestor > a, .main-nav > .current-menu-item > a {
+.main-nav .menu-link .main-nav .current-menu-ancestor > a .main-nav > .current-menu-item > a {
     background-color: #252525 !important;
 }
 
