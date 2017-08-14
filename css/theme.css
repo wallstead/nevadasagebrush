@@ -6167,6 +6167,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     background-color: #252525 !important;
 }
 
+.main-nav .menu-item:hover > .menu-link {
+    background-color: #252525 !important;
+}
+
 
 
 .menu-item a:hover {
