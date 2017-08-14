@@ -6177,3 +6177,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
         width: 1400px;
     }
 }
+
+@media (min-width: 768px) {
+    .col-sm-4 {
+        width: 33.3%;
+    }
+}
