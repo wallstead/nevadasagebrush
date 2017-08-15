@@ -6197,10 +6197,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .footer-content {
     display: flex;
     flex-wrap: wrap;
-    height: 200px;
+    height: auto;
     align-items: center;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 15 15px;
 }
 
 .footer-content .logo {
@@ -6272,7 +6272,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 @media (min-width: 992px) {
     .footer-content {
         flex-wrap: nowrap;
-        height: auto;
+        height: 200px;
+        padding: 0 15px;
     }
 
     .footer-content .logo {
@@ -6280,6 +6281,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     }
 
     .footer-content .social {
+        display: flex;
+        justify-content: center;
         width: 40%;
     }
 
