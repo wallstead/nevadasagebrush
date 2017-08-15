@@ -3368,7 +3368,8 @@ mark.mark-grey {
 @media (min-width: 781px) {
   body.site-layout-boxed #off-canvas-body-inner,
   body.site-layout-boxed .container,
-  body.site-layout-boxed .sticky-wrapper.is-sticky .top-bar {
+  body.site-layout-boxed .sticky-wrapper.is-sticky .top-bar,
+  .footer-content {
     max-width: 750px;
   }
   body.site-layout-boxed #off-canvas-body-inner {
