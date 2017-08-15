@@ -6209,6 +6209,15 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     width: 30%;
 }
 
+.footer-content .social .site-social-icon {
+    color: white;
+    margin-right: 10px;
+}
+
+.footer-content .social .site-social-icon i { /* icons */
+    font-size: 2em;
+}
+
 /* custom media queries */
 
 
