@@ -6269,7 +6269,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 }
 
-@media (min-width: 992px) {
+@media (max-width: 992px) {
     .footer-content {
         flex-wrap: nowrap;
     }
