@@ -6188,13 +6188,17 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 #footer {
     background-color: black !important;
     color: white !important;
-    height: 50px !important;
     width: 100% !important;
 }
 
 .footer-content {
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+    align-items: center;
     max-width: 1400px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 /* custom media queries */
