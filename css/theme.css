@@ -6283,11 +6283,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
     .footer-content .social {
         display: block;
-        width: 40%;
+        width: 30%;
     }
 
     .footer-content .copyrightstuff {
-        width: 60%;
+        width: 30%;
         text-align: right;
     }
 }
