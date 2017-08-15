@@ -6194,7 +6194,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .footer-content {
     display: flex;
     height: 200px;
-    justify-content: center;
     align-items: center;
     max-width: 1400px;
     margin: 0 auto;
@@ -6216,6 +6215,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .footer-content .social .site-social-icon i { /* icons */
     font-size: 2em;
+}
+
+.footer-content .copyrightstuff {
+    width: 30%;
+}
+
+.footer-content .copyrightstuff p {
+    color: white;
 }
 
 /* custom media queries */
