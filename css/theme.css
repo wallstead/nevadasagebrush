@@ -6188,7 +6188,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 footer {
     background-color: black;
     color: white;
+    height: 50px;
+    width: 100%;
 }
+
+/* custom media queries */
 
 
 @media (min-width: 1500px) {
