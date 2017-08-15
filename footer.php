@@ -11,7 +11,7 @@
 								wp_nav_menu( array(
 									'theme_location' => 'top_navigation',
 									'container' => false,
-									'menu_class' => 'top-nav list-unstyled',
+									'menu_class' => 'bottom-nav list-unstyled',
 									'link_before' => '<span>',
 									'link_after' => '</span>',
 									'items_wrap' => '<ul id="%1$s" class="%2$s">%3$s</ul>',
