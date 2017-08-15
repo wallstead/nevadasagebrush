@@ -3434,7 +3434,7 @@ mark.mark-grey {
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  body.site-layout-full-medium .container {
+  body.site-layout-full-medium .container, .footer-content {
     max-width: 970px;
   }
   body.site-layout-full-medium .widget_vw_widget_social_subscription .social-subscription {
@@ -3445,7 +3445,8 @@ mark.mark-grey {
 
   body.site-layout-boxed #off-canvas-body-inner,
   body.site-layout-boxed .container,
-  body.site-layout-boxed .sticky-wrapper.is-sticky .top-bar {
+  body.site-layout-boxed .sticky-wrapper.is-sticky .top-bar,
+  .footer-content {
     max-width: 1000px;
   }
 
@@ -3457,7 +3458,8 @@ mark.mark-grey {
 @media (min-width: 1200px) {
   body.site-layout-boxed #off-canvas-body-inner,
   body.site-layout-boxed .container,
-  body.site-layout-boxed .sticky-wrapper.is-sticky .top-bar {
+  body.site-layout-boxed .sticky-wrapper.is-sticky .top-bar,
+  .footer-content {
     max-width: 1200px;
   }
 
@@ -6195,7 +6197,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     display: flex;
     height: 200px;
     align-items: center;
-    max-width: 1400px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -6256,6 +6257,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 @media (min-width: 1500px) {
     .container {
+        width: 1400px;
+    }
+
+    .footer-content {
         width: 1400px;
     }
 }
