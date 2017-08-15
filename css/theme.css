@@ -6194,11 +6194,15 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .footer-content {
     display: flex;
     height: 200px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+.footer-content .logo {
+    width: 20%;
 }
 
 /* custom media queries */
