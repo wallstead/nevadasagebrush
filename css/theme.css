@@ -6183,6 +6183,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     background-color: #f7f7f7 !important;
 }
 
+/* footer */
+
+footer {
+    background-color: black;
+    color: white;
+}
+
 
 @media (min-width: 1500px) {
     .container {
@@ -6193,5 +6200,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 @media (min-width: 768px) {
     .col-sm-4 {
         width: 33.3%;
+    }
+
+    .col-sm-6 {
+        width: 49.9%;
     }
 }
