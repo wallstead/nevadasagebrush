@@ -6209,6 +6209,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .footer-content .social {
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .footer-content .social .site-social-icon {
@@ -6281,8 +6283,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     }
 
     .footer-content .social {
-        display: flex;
-        justify-content: center;
+        display: block;
+
         width: 40%;
     }
 
