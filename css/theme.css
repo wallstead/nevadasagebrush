@@ -6213,6 +6213,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     margin-right: 15px;
 }
 
+.footer-content .social .site-social-icon:hover {
+    color: #adadad;
+}
+
 .footer-content .social .site-social-icon i { /* icons */
     font-size: 1.7em;
 }
@@ -6239,6 +6243,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     padding: 0 0 0 5px;
     text-decoration: none;
     color: white;
+}
+
+.footer-content .copyrightstuff .bottom-nav a:hover {
+    color: #adadad;
 }
 
 /* custom media queries */
