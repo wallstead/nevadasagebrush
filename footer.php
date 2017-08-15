@@ -1,5 +1,5 @@
 				<footer id="footer">
-					<?php get_sidebar( 'footer' ); ?>
+					<!-- <?php get_sidebar( 'footer' ); ?>
 
 					<div class="copyright">
 						<div class="container">
@@ -10,11 +10,11 @@
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> -->
 				</footer>
-				
+
 			</div> <!-- Off canvas body inner -->
-		
+
 		<?php wp_footer(); ?>
 	</body>
 </html>
