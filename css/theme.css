@@ -6227,6 +6227,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     margin-bottom: 5px;
 }
 
+.footer-content .copyrightstuff .bottom-nav {
+    margin-bottom: 0;
+}
+
 .footer-content .copyrightstuff .bottom-nav li {
     display: inline-block;
 }
