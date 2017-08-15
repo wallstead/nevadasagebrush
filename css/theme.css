@@ -6196,6 +6196,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .footer-content {
     display: flex;
+    flex-wrap: wrap;
     height: 200px;
     align-items: center;
     margin: 0 auto;
@@ -6263,6 +6264,27 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
     .footer-content {
         width: 1400px;
+    }
+
+
+}
+
+@media (min-width: 992px) {
+    .footer-content {
+        flex-wrap: nowrap;
+    }
+
+    .footer-content .logo {
+        width: 100%;
+    }
+
+    .footer-content .social {
+        width: 100%;
+    }
+
+    .footer-content .copyrightstuff {
+        width: 100%;
+        text-align: center;
     }
 }
 
