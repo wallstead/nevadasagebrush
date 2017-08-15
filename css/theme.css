@@ -6204,11 +6204,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .footer-content .logo {
-    width: 40%;
+    width: 100%;
 }
 
 .footer-content .social {
-    width: 30%;
+    width: 100%;
 }
 
 .footer-content .social .site-social-icon {
@@ -6226,8 +6226,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .footer-content .copyrightstuff {
-    width: 30%;
-    text-align: right;
+    width: 100%;
+    text-align: center;
 }
 
 .footer-content .copyrightstuff p {
@@ -6269,22 +6269,23 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 }
 
-@media (max-width: 992px) {
+@media (min-width: 992px) {
     .footer-content {
         flex-wrap: nowrap;
+        height: auto;
     }
 
     .footer-content .logo {
-        width: 100%;
+        width: 40%;
     }
 
     .footer-content .social {
-        width: 100%;
+        width: 40%;
     }
 
     .footer-content .copyrightstuff {
-        width: 100%;
-        text-align: center;
+        width: 60%;
+        text-align: right;
     }
 }
 
