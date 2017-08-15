@@ -6185,11 +6185,16 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 /* footer */
 
-footer {
-    background-color: black;
-    color: white;
-    height: 50px;
-    width: 100%;
+#footer {
+    background-color: black !important;
+    color: white !important;
+    height: 50px !important;
+    width: 100% !important;
+}
+
+.footer-content {
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 /* custom media queries */
