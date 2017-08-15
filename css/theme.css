@@ -6267,8 +6267,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     .footer-content {
         width: 1400px;
     }
-
-
 }
 
 @media (min-width: 992px) {
@@ -6284,7 +6282,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
     .footer-content .social {
         display: block;
-
         width: 40%;
     }
 
