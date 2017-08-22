@@ -46,7 +46,7 @@
 	<body id="top" <?php body_class(); ?>>
 
 			<div class="adContainer">
-				<div class="ad">
+				<div class="ad container">
 					<a href="http://www.unrsearch.com">
 						<img src="http://nevadasagebrush.com/wp-content/uploads/2017/06/Inkblot-—-Open-Engineering.png" alt="Open Student Positions">
 					</a>
