@@ -3,8 +3,18 @@
 <div id="page-wrapper" class="container">
 	<div id="page-content">
 		<div class="categories">
+
+			<?php global $post; // required
+				$args = array('category_name' => 'news'); // exclude category 9
+				$custom_posts = get_posts($args);
+				foreach($custom_posts as $post) : setup_postdata($post);
+						echo $post->the_title();
+				endforeach;
+			?>
+
 			<div class="category">
 				<h3>News</h3>
+
 			</div>
 			<div class="category">
 				<h3>A &amp; E</h3>
