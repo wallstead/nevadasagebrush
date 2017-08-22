@@ -70,7 +70,7 @@
 		$(".featuredSlider").owlCarousel({
 			loop: true,
 		  dots: true,
-		  autoplay: true,
+		  autoplay: false,
 		  items: 1,
 		  nav: false,
 		  autoplayHoverPause: true
