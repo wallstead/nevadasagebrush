@@ -12,7 +12,7 @@
 				$counter = 0;
 				foreach($custom_posts as $post) : setup_postdata($post);
 						$author_id = $post->post_author;
-						echo '<div class="storyOfCategory">';
+						echo '<div class="storyOfCategory animated fadeInDown">';
 						if ($counter < 1) {
 							echo '<div class="imageOfStory" style="background-image: url('.get_the_post_thumbnail_url($post->ID, 'post-thumbnail' ).');"></div>';
 						}
