@@ -6354,7 +6354,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   font-size: 1.2rem;
 }
 
-.storyLink:hover  {
+.storyPermalink:hover  {
   text-decoration: none;
 }
 
