@@ -6319,7 +6319,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .featuredSlider .owl-dot {
   float: left;
   background-size: cover;
-  width: 150px;
+  width: 33.33%;
+  height: 100px;
   margin: 0;
 }
 
