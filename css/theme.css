@@ -6309,9 +6309,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .category {
-  width: 25%;
+  width: 23.5%;
+  margin-right: 2%;
   display: flex;
   flex-wrap: wrap;
+}
+
+.category:last-of-type {
+  margin-right: 0;
 }
 
 .category h3 {
@@ -6341,6 +6346,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   background-size: contain;
   width: 100%;
   height: 150px;
+  margin: 10px 0;
 }
 
 .storyOfCategory .storyInfo  {
