@@ -6316,6 +6316,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .category h3 {
   color: black;
+  margin: 0;
   border-bottom: 4px solid black;
   font-size: 2em;
   text-transform: uppercase;
