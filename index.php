@@ -2,6 +2,10 @@
 
 <div id="page-wrapper" class="container">
 	<div id="page-content">
+		<div class="hero">
+				<h2>test</h2>
+		</div>
+
 		<div class="categories">
 			<?php
 

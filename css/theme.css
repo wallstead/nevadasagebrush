@@ -6303,6 +6303,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 /* Index styles (temp) */
+.hero {
+  width: 100%;
+  display: flex;
+}
+
+
 .categories {
   width: 100%;
   display: flex;
