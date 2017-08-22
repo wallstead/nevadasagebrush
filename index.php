@@ -98,7 +98,7 @@
 
       var grab = $(this).data('info');
 
-			var slideUrl = $('.slidenumber'+ grab +' img').css('background-image');
+			var slideUrl = $('.slidenumber'+ grab +' .featuredStory').css('background-image');
         slideUrl = slideUrl.replace('url(','').replace(')','').replace(/\"/gi, "");
 
       console.log(slideUrl);
