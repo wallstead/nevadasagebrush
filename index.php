@@ -10,6 +10,8 @@
 				foreach($custom_posts as $post) : setup_postdata($post);
 						echo get_the_title($post->ID);
 				endforeach;
+
+				wp_reset_postdata();
 			?>
 
 			<div class="category">
