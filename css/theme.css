@@ -6310,10 +6310,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .category {
   width: 25%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .category h3 {
   color: black;
   border-bottom: 4px solid black;
   font-size: 2em;
+  text-transform: uppercase;
 }
