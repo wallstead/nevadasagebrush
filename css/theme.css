@@ -6315,6 +6315,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   flex-direction: column;
 }
 
+.category a:hover {
+  text-decoration: none;
+}
+
 .category:last-of-type {
   margin-right: 0;
 }
