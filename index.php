@@ -9,7 +9,7 @@
 			<div class="category">
 				<h3>News</h3>
 				<?php global $post; // required
-					$args = array('numberposts' => 2, 'category_name' => 'news');
+					$args = array('numberposts' => 3, 'category_name' => 'news');
 					$custom_posts = get_posts($args);
 					foreach($custom_posts as $post) : setup_postdata($post);
 							echo get_the_title($post->ID);
