@@ -16,7 +16,7 @@
 							$author_id = $post->post_author;
 							echo '<div class="storyOfCategory">';
 							if ($counter < 1) {
-								echo '<div class="imageOfStory" style="background-image: url('.get_the_post_thumbnail_url($post->ID, 'post-thumbnail' ).');">';
+								echo '<div class="imageOfStory" style="background-image: url('.get_the_post_thumbnail_url($post->ID, 'post-thumbnail' ).');"></div>';
 							}
 							echo '<div class="storyInfo"><p>By '.get_the_author_meta( 'display_name', $author_id ).'</p><p>'.get_the_date('m/d/y', $post->ID).'</p></div>';
 							echo '<h4>'.get_the_title($post->ID).'</h4>';
