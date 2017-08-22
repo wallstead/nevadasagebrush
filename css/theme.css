@@ -6335,14 +6335,15 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   margin-bottom: 10px;
   border-top: 1px solid #dedede;
   padding-top: 7px;
+  width: 100%;
 }
 
-.storyOfCategory:first-of-type {
+.category:nth-child(2) {
   border-top: none;
   padding-top: 0;
 }
 
-.storyOfCategory:last-of-type {
+.category:last-child {
   margin-bottom: 0;
 }
 
