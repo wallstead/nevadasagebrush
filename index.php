@@ -12,9 +12,10 @@
 					$args = array('numberposts' => 3, 'category_name' => 'news');
 					$custom_posts = get_posts($args);
 					foreach($custom_posts as $post) : setup_postdata($post);
-
+							$author_id = $post->post_author;
 							echo '<div class="storyOfCategory">';
-							echo '<p>By '.get_the_author_meta( 'display_name', $post->ID ).'</p>';
+
+							echo '<p>By '.get_the_author_meta( 'user_nicename', $author_id ).'</p>';
 							echo '<h4>'.get_the_title($post->ID).'</h4>';
 							echo '</div>';
 					endforeach;
