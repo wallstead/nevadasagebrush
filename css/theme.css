@@ -6333,7 +6333,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   margin-top: 5px;
 }
 
-.featuredSlider .owl-dot:last-of-type {
+.owl-dot:last-of-type {
   margin-right: 0;
 }
 
