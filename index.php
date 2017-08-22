@@ -57,7 +57,15 @@
 
 <script>
 	$(document).ready(function() {
-		$(".featuredSlider").owlCarousel();
+		$(".featuredSlider").owlCarousel({
+		  loop: true,
+		  autoplay: true,
+		  items: 1,
+		  nav: true,
+		  autoplayHoverPause: true,
+		  animateOut: 'slideOutUp',
+		  animateIn: 'slideInUp'
+		});
 	});
 </script>
 
