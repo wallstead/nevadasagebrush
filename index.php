@@ -7,7 +7,6 @@
 					<img src="http://placehold.it/320x240?text=Slide%200">
 					<img src="http://placehold.it/320x240?text=Slide%201">
 				  <img src="http://placehold.it/320x240?text=Slide%202">
-				  <img src="http://placehold.it/320x240?text=Slide%203">
 				</div>
 		</div>
 
