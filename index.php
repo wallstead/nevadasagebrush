@@ -98,10 +98,12 @@
 
       var grab = $(this).data('info');
 
-      var slidegrab = $('.slidenumber'+ grab +' img').attr('src');
-      console.log(slidegrab);
+			var slideUrl = $('.slidenumber'+ grab +' img').css('background-image');
+        slideUrl = slideUrl.replace('url(','').replace(')','').replace(/\"/gi, "");
 
-      $(this).css("background-image", "url("+slidegrab+")");
+      console.log(slideUrl);
+
+      $(this).css("background-image", "url("+slideUrl+")");
 
     });
 
