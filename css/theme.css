@@ -6335,8 +6335,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .storyOfCategory {
   margin-bottom: 10px;
-  /*border-top: 1px solid #dedede;*/
-  padding-top: 7px;
+  border-bottom: 1px solid #dedede;
+  padding-bottom: 7px;
   width: 100%;
 }
 
