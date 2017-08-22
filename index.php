@@ -61,7 +61,7 @@
 		  loop: true,
 		  autoplay: true,
 		  items: 1,
-		  nav: false,
+		  nav: true,
 		  autoplayHoverPause: true,
 		  animateOut: 'slideOutUp',
 		  animateIn: 'slideInUp'
