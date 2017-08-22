@@ -6323,5 +6323,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .storyOfCategory {
-  
+
+}
+
+.storyOfCategory h4 {
+  margin: 0;
+  font-weight: 400;
 }
