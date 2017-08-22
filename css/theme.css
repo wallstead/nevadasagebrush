@@ -6321,6 +6321,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .category .categoryTitle {
   width: 100%;
+  display: flex;
 }
 
 .category .categoryTitle h3 {
@@ -6333,7 +6334,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .storyOfCategory {
   margin-bottom: 10px;
-  border-top: 1px solid #dedede;
+  /*border-top: 1px solid #dedede;*/
   padding-top: 7px;
   width: 100%;
 }
