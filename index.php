@@ -13,7 +13,10 @@
 					$custom_posts = get_posts($args);
 					foreach($custom_posts as $post) : setup_postdata($post);
 
-							echo '<div class="storyOfCategory"><h4>'.get_the_title($post->ID).'</h4></div>';
+							echo '<div class="storyOfCategory">';
+							echo '<p>By '.get_the_author_meta( 'display_name', 25 ).'</p>';
+							echo '<h4>'.get_the_title($post->ID).'</h4>';
+							echo '</div>';
 					endforeach;
 
 					wp_reset_postdata();
