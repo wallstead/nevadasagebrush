@@ -4,9 +4,18 @@
 	<div id="page-content">
 		<div class="hero">
 				<div class="featuredSlider owl-carousel">
-					<img src="http://placehold.it/320x200?text=Slide%200">
-					<img src="http://placehold.it/320x200?text=Slide%201">
-				  <img src="http://placehold.it/320x200?text=Slide%202">
+					<?php
+
+						global $post;
+						$args = array('numberposts' => 3, 'category_name' => 'Featured');
+						$custom_posts = get_posts($args);
+						foreach($custom_posts as $post) : setup_postdata($post);
+								$author_id = $post->post_author;
+								echo '<div class="featuredStory animated fadeIn" style="background-image: url('.get_the_post_thumbnail_url($post->ID, 'post-thumbnail' ).');"></div>';
+						endforeach;
+
+						wp_reset_postdata();
+					?>
 				</div>
 		</div>
 
