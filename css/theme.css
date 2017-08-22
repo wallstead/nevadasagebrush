@@ -6352,6 +6352,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .storyOfCategory .storyInfo  {
   display: flex;
   justify-content: space-between;
+  font-size: 1.2rem;
 }
 
 .storyOfCategory .storyInfo p {
