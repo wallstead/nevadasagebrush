@@ -6330,9 +6330,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .featuredSlider .owl-dot {
   background-size: cover;
-  width: 33%;
+  width: 32.5%;
   height: 140px;
-  margin-top: 5px;
+  margin-top: 8px;
 }
 
 .owl-dot:last-of-type {
