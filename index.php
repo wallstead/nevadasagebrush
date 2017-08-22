@@ -11,7 +11,7 @@
 						$custom_posts = get_posts($args);
 						foreach($custom_posts as $post) : setup_postdata($post);
 								$author_id = $post->post_author;
-								echo '<div class="featuredStory animated fadeIn" style="background-image: url('.get_the_post_thumbnail_url($post->ID, 'post-thumbnail' ).');"></div>';
+								echo '<div class="featuredStory animated fadeIn" style="background-image: url('.get_the_post_thumbnail_url($post->ID, 'post-thumbnail' ).');"><h2>test header</h2><p>test paragraph</p></div>';
 						endforeach;
 
 						wp_reset_postdata();
@@ -101,10 +101,7 @@
 			var slideUrl = $('.slidenumber'+ grab +' .featuredStory').css('background-image');
       slideUrl = slideUrl.replace('url(','').replace(')','').replace(/\"/gi, "");
 
-
-
       $(this).css("background-image", "url("+slideUrl+")");
-
     });
 
 			// THIS FINAL BIT CAN BE REMOVED AND OVERRIDEN WITH YOUR OWN CSS OR FUNCTION, I JUST HAVE IT
