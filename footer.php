@@ -1,3 +1,10 @@
+			<div class="adContainer">
+					<div class="ad container">
+						<a href="http://www.unrsearch.com">
+							<img src="http://nevadasagebrush.com/wp-content/uploads/2017/06/Inkblot-—-Open-Engineering.png" alt="Open Student Positions">
+						</a>
+					</div>
+				</div>
 				<footer id="footer">
 					<div class="footer-content">
 						<div class="social">
