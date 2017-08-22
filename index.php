@@ -66,6 +66,44 @@
 		  nav: false,
 		  autoplayHoverPause: true
 		});
+
+		// 1) ASSIGN EACH 'DOT' A NUMBER
+		var dotcount = 1;
+
+		$('.owl-dot').each(function() {
+		  jQuery( this ).addClass( 'dotnumber' + dotcount);
+		  jQuery( this ).attr('data-info', dotcount);
+		  dotcount = dotcount+1;
+		});
+
+		// 2) ASSIGN EACH 'SLIDE' A NUMBER
+		var slidecount = 1;
+
+		$('.owl-item').not('.cloned').each(function() {
+		  $(this).addClass( 'slidenumber' + slidecount);
+		  slidecount = slidecount+1;
+		});
+
+		// SYNC THE SLIDE NUMBER IMG TO ITS DOT COUNTERPART (E.G SLIDE 1 IMG TO DOT 1 BACKGROUND-IMAGE)
+		$('.owl-dot').each(function() {
+
+      var grab = $(this).data('info');
+
+      var slidegrab = $('.slidenumber'+ grab +' img').attr('src');
+      console.log(slidegrab);
+
+      $(this).css("background-image", "url("+slidegrab+")");
+
+    });
+
+			// THIS FINAL BIT CAN BE REMOVED AND OVERRIDEN WITH YOUR OWN CSS OR FUNCTION, I JUST HAVE IT
+        // TO MAKE IT ALL NEAT
+			// amount = jQuery('.owl-dot').length;
+			// gotowidth = 100/amount;
+			//
+			// jQuery('.owl-dot').css("width", gotowidth+"%");
+			// newwidth = jQuery('.owl-dot').width();
+			// jQuery('.owl-dot').css("height", newwidth+"px");
 	});
 </script>
 
