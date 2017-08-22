@@ -4,9 +4,9 @@
 	<div id="page-content">
 		<div class="hero">
 				<div class="featuredSlider owl-carousel">
-					<img src="http://placehold.it/320x240?text=Slide%200">
-					<img src="http://placehold.it/320x240?text=Slide%201">
-				  <img src="http://placehold.it/320x240?text=Slide%202">
+					<img src="http://placehold.it/320x200?text=Slide%200">
+					<img src="http://placehold.it/320x200?text=Slide%201">
+				  <img src="http://placehold.it/320x200?text=Slide%202">
 				</div>
 		</div>
 
