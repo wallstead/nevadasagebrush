@@ -6324,6 +6324,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .storyOfCategory {
   margin-bottom: 10px;
+  border-top: 1px solid #dedede;
+  padding-top: 7px;
+}
+
+.storyOfCategory:first-of-type {
+  border-top: none;
+  padding-top: 0;
 }
 
 .storyOfCategory:last-of-type {
