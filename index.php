@@ -3,13 +3,14 @@
 <div id="page-wrapper" class="container">
 	<div class="row">
 		<div id="page-content" class="col-sm-7 col-md-8">
-			
+			<h4>tester </h4>
+
 			<?php if (have_posts()) : ?>
 
 				<?php get_template_part( 'templates/page-title' ); ?>
-				
+
 				<?php $blog_layout = vw_get_option( 'blog_layout' ); ?>
-				
+
 				<?php if ( 'classic' == $blog_layout ) : ?>
 
 				<div class="row archive-posts post-box-list">
@@ -41,7 +42,7 @@
 				<h2><?php _e('Sorry, no posts were found', 'envirra') ?></h2>
 
 			<?php endif; ?>
-			
+
 		</div>
 
 		<aside id="page-sidebar" class="sidebar-wrapper col-sm-5 col-md-4">
