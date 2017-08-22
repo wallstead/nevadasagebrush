@@ -14,7 +14,7 @@
 					foreach($custom_posts as $post) : setup_postdata($post);
 
 							echo '<div class="storyOfCategory">';
-							echo '<p>By '.get_the_author_meta( 'display_name', 25 ).'</p>';
+							echo '<p>By '.get_the_author_meta( 'display_name', $post->ID ).'</p>';
 							echo '<h4>'.get_the_title($post->ID).'</h4>';
 							echo '</div>';
 					endforeach;
