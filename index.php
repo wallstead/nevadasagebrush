@@ -3,7 +3,7 @@
 <div id="page-wrapper" class="container">
 	<div id="page-content">
 		<div class="hero">
-				<div class="featuredSlider">
+				<div class="featuredSlider owl-carousel">
 					<img src="http://placehold.it/320x240?text=Slide%200">
 					<img src="http://placehold.it/320x240?text=Slide%201">
 				  <img src="http://placehold.it/320x240?text=Slide%202">
