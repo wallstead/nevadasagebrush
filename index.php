@@ -60,13 +60,11 @@
 <script>
 	$(document).ready(function() {
 		$(".featuredSlider").owlCarousel({
-		  loop: true,
+		  // loop: true,
 		  autoplay: true,
 		  items: 1,
 		  nav: false,
-		  autoplayHoverPause: true,
-		  animateOut: 'slideOutUp',
-		  animateIn: 'slideInUp'
+		  autoplayHoverPause: true
 		});
 	});
 </script>

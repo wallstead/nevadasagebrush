@@ -6316,6 +6316,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   /*width: 100%;*/
 }
 
+.featuredSlider .owl-dot {
+  float: left; background-size: cover; margin-top: 10px;
+}
+
 
 .categories {
   width: 100%;
