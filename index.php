@@ -12,7 +12,8 @@
 					$args = array('numberposts' => 3, 'category_name' => 'news');
 					$custom_posts = get_posts($args);
 					foreach($custom_posts as $post) : setup_postdata($post);
-							echo get_the_title($post->ID);
+
+							echo '<div class="storyOfCategory"><h4>'.get_the_title($post->ID).'</h4></div>';
 					endforeach;
 
 					wp_reset_postdata();
