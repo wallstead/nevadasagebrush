@@ -55,4 +55,18 @@
 	</div>
 </div>
 
+<script>
+	$(document).ready(function() {
+		$(".featuredSlider").owlCarousel({
+		  loop: true,
+		  autoplay: true,
+		  items: 1,
+		  nav: false,
+		  autoplayHoverPause: true,
+		  animateOut: 'slideOutUp',
+		  animateIn: 'slideInUp'
+		});
+	});
+</script>
+
 <?php get_footer(); ?>
