@@ -4,7 +4,7 @@
 	<div id="page-content">
 		<div class="categories">
 
-			<!-- <?php global $post; // required
+		 <!-- ?php global $post; // required
 				$args = array('category_name' => 'news'); // exclude category 9
 				$custom_posts = get_posts($args);
 				foreach($custom_posts as $post) : setup_postdata($post);
@@ -12,7 +12,7 @@
 				endforeach;
 
 				wp_reset_postdata();
-			?> -->
+			? -->
 
 			<div class="category">
 				<h3>News</h3>
