@@ -6323,6 +6323,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   background-size: cover;
 }
 
+.featuredStory .featuredInfo {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
 .owl-dots {
   display: flex;
   justify-content: space-between;
