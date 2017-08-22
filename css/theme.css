@@ -6335,7 +6335,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   margin-top: 8px;
 }
 
-.owl-dot .active {
+.featuredSlider .owl-dot .active {
   border: 7px solid black;
 }
 
