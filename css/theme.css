@@ -6357,6 +6357,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .storyOfCategory .storyInfo p {
   margin: 0;
   color: #989898;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .storyOfCategory h4 {
