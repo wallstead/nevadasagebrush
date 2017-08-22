@@ -8,7 +8,7 @@
 				$args = array('category_name' => 'news'); // exclude category 9
 				$custom_posts = get_posts($args);
 				foreach($custom_posts as $post) : setup_postdata($post);
-						echo $post->the_title();
+						echo get_the_title($post->ID);
 				endforeach;
 			?>
 
