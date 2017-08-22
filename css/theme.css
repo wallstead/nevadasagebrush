@@ -6370,3 +6370,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   margin: 0;
   font-weight: 400;
 }
+
+.storyOfCategory h4:hover {
+  text-decoration: underline;
+}
