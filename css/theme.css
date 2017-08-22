@@ -6338,15 +6338,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   width: 100%;
 }
 
-/*.category:nth-child(2) {
-  border-top: none;
-  padding-top: 0;
-}
-
-.category:last-child {
-  margin-bottom: 0;
-}*/
-
 .storyOfCategory .imageOfStory {
   background-size: cover;
   width: 100%;
