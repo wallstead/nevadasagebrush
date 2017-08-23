@@ -6521,6 +6521,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .categories {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .category {
@@ -6610,6 +6611,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   .category {
     width: 23.5%;
     margin-right: 2%;
+    flex-wrap: nowrap;
   }
 
   .category:last-of-type {
