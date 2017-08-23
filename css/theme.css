@@ -6344,6 +6344,11 @@ padding-left: 10px;
   font-weight: 100;
 }
 
+.hero .rightside .newsletter button {
+  border: 2px solid #000;
+  color: #000;
+}
+
 
 .featuredSlider img {
   /*width: 100%;*/

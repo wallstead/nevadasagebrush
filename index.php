@@ -25,7 +25,7 @@
 						<h3>Subscribe to our Newsletter</h3>
 						<p>To be notified of new stories and events.</p>
 						<form action="#">
-					    <input type="text" placeholder="Enter text..."/>
+					    <input type="text" placeholder="Your Email"/>
 					    <button type="submit">Subscribe</button>
 						</form>
 					</div>
