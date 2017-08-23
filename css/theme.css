@@ -6324,9 +6324,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .featuredStory .featuredInfo {
-  background-color: rgba(0, 0, 0, 0.44);
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 10px;
   display: flex;
+  align-items: flex-end;
   flex-direction: column;
 }
 
