@@ -52,7 +52,7 @@
 				</div>
 		</div>
 
-		
+
 
 		<div class="categories">
 			<?php
@@ -83,7 +83,7 @@
 				<?php listStoriesOfCategory('News'); ?>
 			</div>
 			<div class="category">
-				<a href="/blog/category/arts-entertainment/"><div class="categoryTitle"><h3>A &amp; E</h3></div></a>
+				<a href="/blog/category/arts-entertainment/"><div class="categoryTitle"><h3>Arts &amp; Entertainment</h3></div></a>
 				<?php listStoriesOfCategory('Arts & Entertainment'); ?>
 			</div>
 			<div class="category">
