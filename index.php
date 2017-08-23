@@ -33,6 +33,25 @@
 					<div class="issuu">
 						<h3>Issuu Archive</h3>
 						<p>Most Recent</p>
+						<?php
+                $response = wp_remote_get( 'http://search.issuu.com/api/2_0/document?q=username:nevadasagebrush&pageSize=1&sortBy=epoch' );
+                if( is_array($response) ) {
+                  $header = $response['headers']; // array of http header lines
+                    $body = $response['body']; // use the content
+                    $array = json_decode( $body, true );
+                    if( ! empty( $array ) ) {
+                        $counter = 0;
+                        foreach($array['response']['docs'] as $doc) {
+                            if($counter == 0) {
+                                echo '<a href="https://issuu.com/nevadasagebrush/docs/'.$doc['docname'].'"><div class="recent-journal index-'.$counter.'"><p><span>New</span> '.$doc['title'].'</p><img src="https://image.isu.pub/'.$doc['documentId'].'/jpg/page_1_thumb_large.jpg" alt="'.$doc['title on Issuu'].'"></div></a>';
+                            } else {
+                                echo '<a href="https://issuu.com/nevadasagebrush/docs/'.$doc['docname'].'"><div class="recent-journal index-'.$counter.'"><p>'.$doc['title'].'</p><img src="https://image.isu.pub/'.$doc['documentId'].'/jpg/page_1_thumb_large.jpg" alt="'.$doc['title on Issuu'].'"></div></a>';
+                            }
+                            $counter++;
+                        }
+                    }
+                }
+            ?>
 					</div>
 				</div>
 		</div>
@@ -40,25 +59,25 @@
 		<div class="categories">
 			<?php
 
-			function listStoriesOfCategory($categoryName){
-				global $post;
-				$args = array('numberposts' => 3, 'category_name' => $categoryName);
-				$custom_posts = get_posts($args);
-				$counter = 0;
-				foreach($custom_posts as $post) : setup_postdata($post);
-						$author_id = $post->post_author;
-						echo '<a class="storyPermalink" href="'.get_post_permalink($post->ID).'"><div class="storyOfCategory animated fadeIn">';
-						if ($counter < 1) {
-							echo '<div class="imageOfStory" style="background-image: url('.get_the_post_thumbnail_url($post->ID, 'post-thumbnail' ).');"></div>';
-						}
-						echo '<div class="storyInfo"><p>By '.get_the_author_meta( 'display_name', $author_id ).'</p><p>'.get_the_date('m/d/y', $post->ID).'</p></div>';
-						echo '<h4>'.get_the_title($post->ID).'</h4>';
-						echo '</div></a>';
-						$counter++;
-				endforeach;
+				function listStoriesOfCategory($categoryName){
+					global $post;
+					$args = array('numberposts' => 3, 'category_name' => $categoryName);
+					$custom_posts = get_posts($args);
+					$counter = 0;
+					foreach($custom_posts as $post) : setup_postdata($post);
+							$author_id = $post->post_author;
+							echo '<a class="storyPermalink" href="'.get_post_permalink($post->ID).'"><div class="storyOfCategory animated fadeIn">';
+							if ($counter < 1) {
+								echo '<div class="imageOfStory" style="background-image: url('.get_the_post_thumbnail_url($post->ID, 'post-thumbnail' ).');"></div>';
+							}
+							echo '<div class="storyInfo"><p>By '.get_the_author_meta( 'display_name', $author_id ).'</p><p>'.get_the_date('m/d/y', $post->ID).'</p></div>';
+							echo '<h4>'.get_the_title($post->ID).'</h4>';
+							echo '</div></a>';
+							$counter++;
+					endforeach;
 
-				wp_reset_postdata();
-			}
+					wp_reset_postdata();
+				}
 
 			?>
 			<div class="category">
