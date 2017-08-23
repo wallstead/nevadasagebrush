@@ -73,6 +73,7 @@
 		  autoplay: true,
 		  items: 1,
 		  nav: false,
+			smartSpeed: 500,
 		  autoplayHoverPause: true
 		});
 
