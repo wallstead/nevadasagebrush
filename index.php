@@ -108,7 +108,7 @@
 
       $(this).css("background-image", "url("+slideUrl+")");
 
-			$(this).html("<h5>" + slideTitle + "</h5>")
+			$(this).html('<div class="previewInfo"><h5>' + slideTitle + '</h5>')
     });
 
 			// THIS FINAL BIT CAN BE REMOVED AND OVERRIDEN WITH YOUR OWN CSS OR FUNCTION, I JUST HAVE IT

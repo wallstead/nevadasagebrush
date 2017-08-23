@@ -6369,6 +6369,18 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   margin-right: 0;
 }
 
+.owl-dot .previewInfo  {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 5px;
+}
+
+.owl-dot .previewInfo h5 {
+  color: white;
+  font-weight: 100;
+  font-size: 0.9em;
+}
+
+
 .categories {
   width: 100%;
   display: flex;
