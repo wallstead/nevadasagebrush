@@ -6350,6 +6350,12 @@ padding-left: 10px;
 }
 
 
+.hero .rightside .newsletter input {
+  height: 45px;
+}
+
+
+
 .featuredSlider img {
   /*width: 100%;*/
 }
