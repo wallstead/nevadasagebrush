@@ -6118,6 +6118,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 /* Will temp styles */
 
+.post-box .post-thumbnail-wrapper img {
+    width: 100%;
+}
+
 #page-wrapper {
     margin-top: 10px !important;
 }
