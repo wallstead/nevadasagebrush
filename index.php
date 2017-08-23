@@ -29,6 +29,11 @@
 					    <button type="submit">Subscribe</button>
 						</form>
 					</div>
+
+					<div class="issuu">
+						<h3>Issuu Archive</h3>
+						<p>Most Recent</p>
+					</div>
 				</div>
 		</div>
 
