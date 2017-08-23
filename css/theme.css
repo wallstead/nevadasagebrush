@@ -6459,6 +6459,17 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   letter-spacing: 0.4px;
 }
 
+.journals {
+  display: flex;
+  width: 100%;
+}
+
+.recent-journal {
+  width: 33.33%;
+}
+
+
+
 
 .categories {
   width: 100%;

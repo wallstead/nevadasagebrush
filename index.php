@@ -33,19 +33,21 @@
 					<div class="issuu">
 						<h3>Issuu Archive</h3>
 						<p>Most Recent</p>
-						<?php
-                $response = wp_remote_get( 'http://search.issuu.com/api/2_0/document?q=username:nevadasagebrush&pageSize=3&sortBy=epoch' );
-                if( is_array($response) ) {
-                  $header = $response['headers']; // array of http header lines
-                    $body = $response['body']; // use the content
-                    $array = json_decode( $body, true );
-                    if( ! empty( $array ) ) {
-                        foreach($array['response']['docs'] as $doc) {
-                            echo '<a href="https://issuu.com/nevadasagebrush/docs/'.$doc['docname'].'"><div class="recent-journal"><img src="https://image.isu.pub/'.$doc['documentId'].'/jpg/page_1_thumb_large.jpg" alt="'.$doc['title on Issuu'].'"></div></a>';
-                        }
-                    }
-                }
-            ?>
+						<div class="journals">
+							<?php
+	                $response = wp_remote_get( 'http://search.issuu.com/api/2_0/document?q=username:nevadasagebrush&pageSize=3&sortBy=epoch' );
+	                if( is_array($response) ) {
+	                  $header = $response['headers']; // array of http header lines
+	                    $body = $response['body']; // use the content
+	                    $array = json_decode( $body, true );
+	                    if( ! empty( $array ) ) {
+	                        foreach($array['response']['docs'] as $doc) {
+	                            echo '<a href="https://issuu.com/nevadasagebrush/docs/'.$doc['docname'].'"><div class="recent-journal"><img src="https://image.isu.pub/'.$doc['documentId'].'/jpg/page_1_thumb_large.jpg" alt="'.$doc['title on Issuu'].'"></div></a>';
+	                        }
+	                    }
+	                }
+	            ?>
+						</div>
 					</div>
 				</div>
 		</div>
