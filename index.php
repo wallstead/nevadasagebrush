@@ -31,8 +31,8 @@
 					</div>
 
 					<div class="issuu">
-						<h3>Issuu Archive</h3>
-						<p>Most Recent</p>
+						<h3>Sagebrush Archive</h3>
+						<p>Our two most recent papers.</p>
 						<div class="journals">
 							<?php
 	                $response = wp_remote_get( 'http://search.issuu.com/api/2_0/document?q=username:nevadasagebrush&pageSize=2&sortBy=epoch' );
