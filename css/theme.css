@@ -6500,6 +6500,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     justify-content: flex-start;
   }
 
+  .hero .rightside .newsletter {
+    margin-bottom: 10px;
+  }
+
   .hero {
     flex-wrap: nowrap;
   }
@@ -6513,6 +6517,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   .hero .rightside {
     justify-content: space-between;
   }
+  .hero .rightside .newsletter {
+    margin-bottom: 0;
+  }
+
 }
 
 

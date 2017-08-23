@@ -103,7 +103,7 @@
 <script>
 	$(document).ready(function() {
 		$(".featuredSlider").owlCarousel({
-			loop: false,
+			loop: true,
 		  dots: true,
 		  autoplay: true,
 		  items: 1,
