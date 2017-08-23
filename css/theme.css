@@ -6333,7 +6333,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .hero .rightside .newsletter h3 {
   margin: 0;
   color: black;
-  padding: 10px;
   font-weight: 100;
 }
 
@@ -6341,7 +6340,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   margin: 0;
   color: black;
   font-weight: 100;
-  border-bottom: 4px solid black;
+
 }
 
 
