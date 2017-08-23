@@ -20,8 +20,10 @@
 					?>
 				</div>
 
-				<div class="newsletter">
-					<h3>Newsletter</h3>
+				<div class="rightside">
+					<div class="newsletter">
+						<h3>Newsletter</h3>
+					</div>
 				</div>
 		</div>
 
