@@ -22,7 +22,7 @@
 
 				<div class="rightside">
 					<div class="newsletter">
-						<h3>Newsletter</h3>
+						<h3>Sign up for our newsletter</h3>
 					</div>
 				</div>
 		</div>
