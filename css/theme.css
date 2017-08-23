@@ -6314,6 +6314,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .hero {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   overflow: hidden;
   margin-bottom: 10px;
 }
@@ -6496,6 +6497,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     padding-left: 0;
     flex-direction: column;
     justify-content: flex-start;
+  }
+
+  .hero {
+    flex-wrap: nowrap;
   }
 }
 
