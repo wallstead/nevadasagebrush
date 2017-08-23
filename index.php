@@ -83,7 +83,7 @@
 				<?php listStoriesOfCategory('News'); ?>
 			</div>
 			<div class="category">
-				<a href="/blog/category/arts-entertainment/"><div class="categoryTitle"><h3>Arts &amp; Entertainment</h3></div></a>
+				<a href="/blog/category/arts-entertainment/"><div class="categoryTitle"><h3>Entertainment</h3></div></a>
 				<?php listStoriesOfCategory('Arts & Entertainment'); ?>
 			</div>
 			<div class="category">
