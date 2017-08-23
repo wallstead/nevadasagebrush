@@ -6323,6 +6323,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-bottom: 300px;
 }
 
 .hero .rightside .newsletter {
