@@ -6499,9 +6499,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     justify-content: flex-start;
   }
 
-  .hero {
-    flex-wrap: nowrap;
-  }
+
 }
 
 @media (min-width: 992px) {
@@ -6510,6 +6508,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     padding-left: 10px;
     flex-direction: column;
     justify-content: space-around;
+  }
+
+  .hero {
+    flex-wrap: nowrap;
   }
 }
 
