@@ -34,7 +34,7 @@
 						<h3>Issuu Archive</h3>
 						<p>Most Recent</p>
 						<?php
-                $response = wp_remote_get( 'http://search.issuu.com/api/2_0/document?q=username:nevadasagebrush&pageSize=1&sortBy=epoch' );
+                $response = wp_remote_get( 'http://search.issuu.com/api/2_0/document?q=username:nevadasagebrush&pageSize=3&sortBy=epoch' );
                 if( is_array($response) ) {
                   $header = $response['headers']; // array of http header lines
                     $body = $response['body']; // use the content
