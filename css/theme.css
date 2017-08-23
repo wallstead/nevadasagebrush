@@ -6366,24 +6366,42 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .hero .rightside .issuu {
-  background-color: black;
+  background-color: white;
   padding: 10px 0;
-  color: white;
+  color: black;
+  border-left: 4px solid black;
 }
 
 .hero .rightside .issuu h3 {
   margin: 0;
-  color: white;
+  color: black;
   font-weight: 100;
   text-align: center;
 }
 
 .hero .rightside .issuu p {
   margin: 0;
-  color: white;
+  color: black;
   font-weight: 100;
   text-align: center;
 }
+
+.journals {
+  display: flex;
+  width: 100%;
+  padding-left: 4px;
+    padding-right: 4px;
+}
+
+.recent-journal {
+  width: 100%;
+  padding-right: 5px;
+}
+
+.recent-journal:last-of-type {
+  padding-right: 0;
+}
+
 
 
 
@@ -6459,21 +6477,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   letter-spacing: 0.4px;
 }
 
-.journals {
-  display: flex;
-  width: 100%;
-  padding-left: 4px;
-    padding-right: 4px;
-}
-
-.recent-journal {
-  width: 100%;
-  padding-right: 5px;
-}
-
-.recent-journal:last-of-type {
-  padding-right: 0;
-}
 
 
 
