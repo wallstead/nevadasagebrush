@@ -68,7 +68,7 @@
 <script>
 	$(document).ready(function() {
 		$(".featuredSlider").owlCarousel({
-			loop: true,
+			loop: false,
 		  dots: true,
 		  autoplay: true,
 		  items: 1,
