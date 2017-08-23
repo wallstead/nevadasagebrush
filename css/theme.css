@@ -6320,7 +6320,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .hero .featuredSlider {
-  width: 66.66%;
+  width: 100%;
 }
 
 .hero .rightside {
@@ -6512,6 +6512,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
   .hero {
     flex-wrap: nowrap;
+  }
+
+  .hero .featuredSlider {
+    width: 66.66%;
   }
 }
 
