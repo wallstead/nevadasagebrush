@@ -6483,8 +6483,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   padding: 5px 7px;
   pointer-events: none;
   max-height: 55px;
-  white-space: nowrap;
-  overflow: hidden;
   text-overflow: ellipsis;
 }
 
