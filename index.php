@@ -52,6 +52,56 @@
 				</div>
 		</div>
 
+		<div class="hero">
+				<div class="featuredSlider owl-carousel">
+					<?php
+
+						global $post;
+						$args = array('numberposts' => 3, 'category_name' => 'Featured');
+						$custom_posts = get_posts($args);
+						foreach($custom_posts as $post) : setup_postdata($post);
+								$author_id = $post->post_author;
+								echo '<div class="featuredStory animated fadeIn" style="background-image: url('.get_the_post_thumbnail_url($post->ID, 'post-thumbnail' ).');" data-title="'.get_the_title($post->ID).'">';
+								echo '<div class="featuredInfo"><p>'.get_the_date('F jS, Y', $post->ID).'</p><h2>'.get_the_title($post->ID).'</h2><p class="byline">By '.get_the_author_meta( 'display_name', $author_id ).'</p></div>';
+								echo '</div>';
+						endforeach;
+
+						wp_reset_postdata();
+					?>
+				</div>
+
+				<div class="rightside">
+					<div class="newsletter">
+						<h3>Subscribe to our Newsletter</h3>
+						<p>To be notified of new stories and events.</p>
+						<form action="#">
+					    <input type="text" placeholder="Your Email"/>
+					    <button type="submit">Subscribe</button>
+						</form>
+					</div>
+
+					<div class="issuu">
+						<h3>Sagebrush Archive</h3>
+						<p>Our two most recent papers.</p>
+						<div class="journals">
+							<?php
+	                $response = wp_remote_get( 'http://search.issuu.com/api/2_0/document?q=username:nevadasagebrush&pageSize=2&sortBy=epoch' );
+	                if( is_array($response) ) {
+	                  $header = $response['headers']; // array of http header lines
+	                    $body = $response['body']; // use the content
+	                    $array = json_decode( $body, true );
+	                    if( ! empty( $array ) ) {
+	                        foreach($array['response']['docs'] as $doc) {
+	                            echo '<div class="recent-journal"><a href="https://issuu.com/nevadasagebrush/docs/'.$doc['docname'].'"><img src="https://image.isu.pub/'.$doc['documentId'].'/jpg/page_1_thumb_large.jpg" alt="'.$doc['title on Issuu'].'"></a></div>';
+	                        }
+	                    }
+	                }
+	            ?>
+						</div>
+					</div>
+				</div>
+		</div>
+
 		<div class="categories">
 			<?php
 
