@@ -6392,9 +6392,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .featuredSlider .featuredStory {
-  height: 400px;
+  height: 450px;
   width: 100%;
   background-size: cover;
+  background-position: center;
 }
 
 .featuredStory .featuredInfo {
@@ -6429,8 +6430,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .featuredSlider .owl-dot {
   background-size: cover;
+  background-position: center;
   width: 32.5%;
-  height: 140px;
+  height: 150px;
   margin-top: 8px;
   transition: all 0.2s;
 }
