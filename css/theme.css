@@ -6317,6 +6317,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   width: 66.66%;
 }
 
+.hero .newsletter {
+  width: 33.33%;
+  background-color: pink;
+}
+
 .featuredSlider img {
   /*width: 100%;*/
 }

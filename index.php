@@ -19,6 +19,10 @@
 						wp_reset_postdata();
 					?>
 				</div>
+
+				<div class="newsletter">
+					<h3>Newsletter</h3>
+				</div>
 		</div>
 
 		<div class="categories">
