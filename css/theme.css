@@ -6396,6 +6396,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .recent-journal {
   width: 100%;
   margin: 10px 5px;
+  box-shadow: 0 0 10px rgba(18, 18, 18, 0.14);
+  transition: all 0.2s;
+}
+
+.recent-journal:hover {
+  box-shadow: 0 0 2px rgba(18, 18, 18, 0.3);
 }
 
 .recent-journal:last-of-type {
