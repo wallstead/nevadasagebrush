@@ -6405,6 +6405,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   transform: scale(0.98);
 }
 
+.recent-journal:active {
+  box-shadow: 0 0 0 rgba(18, 18, 18, 0.6);
+  transform: scale(0.97);
+}
+
 .recent-journal:last-of-type {
   padding-right: 0;
 }
