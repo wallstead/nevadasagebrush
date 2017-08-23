@@ -6491,7 +6491,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .hero .rightside {
     width: 33.33%;
     padding-left: 10px;
@@ -6502,9 +6502,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 @media (min-width: 1500px) {
   .hero .rightside {
-    width: 33.33%;
-    padding-left: 10px;
-    flex-direction: column;
     justify-content: space-between;
   }
 }
