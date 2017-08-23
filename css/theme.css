@@ -6470,7 +6470,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .owl-dot.active {
   opacity: 0.75;
-  border: 7px solid black;
+  transform: scale(0.95);
 }
 
 .owl-dot:last-of-type {
