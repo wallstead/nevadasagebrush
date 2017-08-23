@@ -6346,6 +6346,7 @@ padding-left: 10px;
 
 .hero .rightside .newsletter form {
   margin-top: 10px;
+
 }
 
 .hero .rightside .newsletter button {
@@ -6356,6 +6357,7 @@ padding-left: 10px;
 
 .hero .rightside .newsletter input {
   height: 45px;
+  margin-bottom: 0;
 }
 
 
