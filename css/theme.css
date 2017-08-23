@@ -6468,6 +6468,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .recent-journal {
   width: 100%;
+  padding-right: 5px;
+}
+
+.recent-journal:last-of-type {
+  padding-right: 0;
 }
 
 
