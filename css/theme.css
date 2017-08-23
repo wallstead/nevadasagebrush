@@ -6331,6 +6331,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   color: black;
   padding: 10px;
   font-weight: 100;
+  border-bottom: 4px solid black;
 }
 
 
