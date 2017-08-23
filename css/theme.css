@@ -6346,7 +6346,8 @@ padding-left: 10px;
 
 .hero .rightside .newsletter form {
   margin-top: 10px;
-
+  display: flex;
+  justify-content: space-between;
 }
 
 .hero .rightside .newsletter button {
@@ -6358,6 +6359,7 @@ padding-left: 10px;
 .hero .rightside .newsletter input {
   height: 45px;
   margin-bottom: 0;
+  width: 75%;
 }
 
 .hero .rightside .issuu {
