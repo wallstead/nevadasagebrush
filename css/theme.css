@@ -6323,11 +6323,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .hero .rightside {
-  width: 33.33%;
-  padding-left: 10px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .hero .rightside .newsletter {
@@ -6494,6 +6490,15 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   letter-spacing: 0.4px;
 }
 
+
+@media (min-width: 1200px) {
+  .hero .rightside {
+    width: 33.33%;
+    padding-left: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
 
 
 
