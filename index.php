@@ -35,7 +35,7 @@
 						<p>Most Recent</p>
 						<div class="journals">
 							<?php
-	                $response = wp_remote_get( 'http://search.issuu.com/api/2_0/document?q=username:nevadasagebrush&pageSize=3&sortBy=epoch' );
+	                $response = wp_remote_get( 'http://search.issuu.com/api/2_0/document?q=username:nevadasagebrush&pageSize=2&sortBy=epoch' );
 	                if( is_array($response) ) {
 	                  $header = $response['headers']; // array of http header lines
 	                    $body = $response['body']; // use the content
