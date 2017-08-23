@@ -6329,7 +6329,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   display: flex;
   flex-direction: column;
   border-left: 4px solid black;
-padding-left: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .hero .rightside .newsletter h3 {
