@@ -6363,7 +6363,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .owl-dot.active {
-  border: 7px solid black;
+  opacity: 0.6;
 }
 
 .owl-dot:last-of-type {
