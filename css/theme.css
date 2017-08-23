@@ -6395,7 +6395,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .recent-journal {
   width: 100%;
-  padding-right: 5px;
+  margin: 10px 5px;
 }
 
 .recent-journal:last-of-type {
