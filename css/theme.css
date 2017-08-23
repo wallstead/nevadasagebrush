@@ -6525,18 +6525,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .category {
-  width: 48%;
-  margin-right: 4%;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
 
 .category a:hover {
   text-decoration: none;
-}
-
-.category:nth-of-type(2n) {
-  margin-right: 0;
 }
 
 
@@ -6605,6 +6600,19 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .storyOfCategory h4:hover {
   text-decoration: underline;
+}
+
+@media (min-width: 430px) {
+  .category {
+    width: 48%;
+    margin-right: 4%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .category:nth-of-type(2n) {
+    margin-right: 0;
+  }
 }
 
 @media (min-width: 992px) {
