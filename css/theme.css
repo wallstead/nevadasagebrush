@@ -6326,19 +6326,19 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .featuredStory .featuredInfo {
   background-color: rgba(0, 0, 0, 0.44);
   padding: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .featuredStory .featuredInfo h2 {
   margin: 0;
   color: white;
-  margin-bottom: 10px;
   font-weight: 200;
 }
 
 .featuredStory .featuredInfo p {
   margin: 0;
   color: white;
-  margin-bottom: 10px;
 }
 
 .owl-dots {
