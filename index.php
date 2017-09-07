@@ -25,9 +25,11 @@
 						<h3>Subscribe to our Newsletter</h3>
 						<p>To be notified of new stories and events.</p>
 						<form id="chimpsub">
-					    <input id="mc-email" type="email" placeholder="Your Email"/>
 							<label for="mc-email"></label>
-					    <button type="submit">Subscribe</button>
+							<div class="input">
+						    <input id="mc-email" type="email" placeholder="Your Email"/>
+						    <button type="submit">Subscribe</button>
+							</div>
 						</form>
 					</div>
 
