@@ -26,6 +26,7 @@
 						<p>To be notified of new stories and events.</p>
 						<form id="chimpsub">
 					    <input id="mc-email" type="email" placeholder="Your Email"/>
+							<label for="mc-email"></label>
 					    <button type="submit">Subscribe</button>
 						</form>
 					</div>
@@ -144,25 +145,17 @@
 			$(this).html('<div class="previewInfo"><h5>' + slideTitle + '</h5>')
     });
 
-			// THIS FINAL BIT CAN BE REMOVED AND OVERRIDEN WITH YOUR OWN CSS OR FUNCTION, I JUST HAVE IT
-        // TO MAKE IT ALL NEAT
-			// amount = jQuery('.owl-dot').length;
-			// gotowidth = 100/amount;
-			//
-			// jQuery('.owl-dot').css("width", gotowidth+"%");
-			// newwidth = jQuery('.owl-dot').width();
-			// jQuery('.owl-dot').css("height", newwidth+"px");
 
-			function callbackFunction (resp) {
-			    if (resp.result === 'success') {
-			        console.log("sub'd");
-			    }
-			}
+		function callbackFunction (resp) {
+		    if (resp.result === 'success') {
+		        console.log("sub'd");
+		    }
+		}
 
-			$('#chimpsub').ajaxChimp({
-			    url: 'http://nevadasagebrush.us16.list-manage.com/subscribe/post?u=6f9c1a2b60a71db286dbd5936&amp;id=0e02749988',
-					callback: callbackFunction
-			});
+		$('#chimpsub').ajaxChimp({
+		    url: 'http://nevadasagebrush.us16.list-manage.com/subscribe/post?u=6f9c1a2b60a71db286dbd5936&amp;id=0e02749988',
+				callback: callbackFunction
+		});
 	});
 </script>
 
