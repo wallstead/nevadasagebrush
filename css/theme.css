@@ -6334,7 +6334,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   /*border-left: 4px solid black;*/
   padding-left: 10px;
   padding-bottom: 10px;
-  padding-top: 10px;
+  padding-top: 0;
 }
 
 .hero .rightside .newsletter h3 {
