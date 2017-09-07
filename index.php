@@ -101,8 +101,6 @@
 	</div>
 </div>
 
-
-
 <script>
 	$(document).ready(function() {
 		$(".featuredSlider").owlCarousel({
