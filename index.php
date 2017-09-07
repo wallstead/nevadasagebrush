@@ -11,7 +11,7 @@
 						$custom_posts = get_posts($args);
 						foreach($custom_posts as $post) : setup_postdata($post);
 								$author_id = $post->post_author;
-								echo '<a class="featuredLink" href="'.get_permalink($post->ID) .'"><div class="featuredStory animated fadeIn" data-wpthumb="'.get_the_post_thumbnail_url($post->ID, 'medium' ).'" style="background-image: url('.get_the_post_thumbnail_url($post->ID, 'full' ).');" data-title="'.get_the_title($post->ID).'">';
+								echo '<a class="featuredLink" href="'.get_permalink($post->ID) .'"><div class="featuredStory animated fadeIn" data-wpthumb="'.get_the_post_thumbnail_url($post->ID, 'large' ).'" style="background-image: url('.get_the_post_thumbnail_url($post->ID, 'full' ).');" data-title="'.get_the_title($post->ID).'">';
 								echo '<div class="featuredInfo"><p>'.get_the_date('F jS, Y', $post->ID).'</p><h2>'.get_the_title($post->ID).'</h2><p class="byline">By '.get_the_author_meta( 'display_name', $author_id ).'</p></div>';
 								echo '</div></a>';
 						endforeach;
