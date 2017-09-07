@@ -134,8 +134,12 @@
 
       var grab = $(this).data('info');
 
-			var slideUrl = $('.slidenumber'+ grab +' .featuredStory').css('background-image');
-      slideUrl = slideUrl.replace('url(','').replace(')','').replace(/\"/gi, "");
+			// var slideUrl = $('.slidenumber'+ grab +' .featuredStory').css('background-image');
+      // slideUrl = slideUrl.replace('url(','').replace(')','').replace(/\"/gi, "");
+
+			var slidePostID = $('.slidenumber'+ grab +' .featuredStory').data('wpid')
+
+			var slideUrl = <?php echo get_the_post_thumbnail_url(slidePostID, 'medium' ) ?>;
 
 			var slideTitle = $('.slidenumber'+ grab +' .featuredStory').data('title');
 
