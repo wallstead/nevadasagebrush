@@ -81,19 +81,19 @@
 				}
 
 			?>
-			<div class="category">
+			<div class="cat">
 				<a href="/blog/category/news/"><div class="categoryTitle"><h3>News</h3></div></a>
 				<?php listStoriesOfCategory('News'); ?>
 			</div>
-			<div class="category">
+			<div class="cat">
 				<a href="/blog/category/arts-entertainment/"><div class="categoryTitle"><h3>Entertainment</h3></div></a>
 				<?php listStoriesOfCategory('Arts & Entertainment'); ?>
 			</div>
-			<div class="category">
+			<div class="cat">
 				<a href="/blog/category/opinion/"><div class="categoryTitle"><h3>Opinion</h3></div></a>
 				<?php listStoriesOfCategory('Opinion'); ?>
 			</div>
-			<div class="category">
+			<div class="cat">
 				<a href="/blog/category/sports/"><div class="categoryTitle"><h3>Sports</h3></div></a>
 				<?php listStoriesOfCategory('Sports'); ?>
 			</div>
