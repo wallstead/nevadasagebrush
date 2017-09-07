@@ -6317,7 +6317,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   display: flex;
   flex-wrap: wrap;
   overflow: hidden;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .hero .featuredSlider {
