@@ -79,7 +79,6 @@
 
 					wp_reset_postdata();
 				}
-
 			?>
 			<div class="cat">
 				<a href="/blog/category/news/"><div class="categoryTitle"><h3>News</h3></div></a>
