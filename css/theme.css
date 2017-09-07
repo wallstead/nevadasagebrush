@@ -6331,7 +6331,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   width: 100%;
   display: flex;
   flex-direction: column;
-  border-left: 4px solid black;
+  /*border-left: 4px solid black;*/
   padding-left: 10px;
   padding-bottom: 10px;
   padding-top: 10px;
@@ -6372,7 +6372,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   background-color: white;
   padding: 10px 0 0 0;
   color: black;
-  border-left: 4px solid black;
+  /*border-left: 4px solid black;*/
 }
 
 .hero .rightside .issuu h3 {
