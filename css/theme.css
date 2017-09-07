@@ -6356,9 +6356,15 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   /*justify-content: space-between;*/
 }
 
+.hero .rightside .newsletter form label {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
 .hero .rightside .newsletter form .input {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 .hero .rightside .newsletter button {
